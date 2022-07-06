@@ -1,0 +1,52 @@
+.min {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.div {
+  background: #7434e2;
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+input {
+  /* width: 20%; */
+  min-width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+  padding-left: 60px;
+  border: none;
+}
+
+.div svg {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  background: #dfdfdf;
+  position: absolute;
+  left: 0px;
+  border-radius: 10px 0px 0px 10px;
+  border-right: solid 2px;
+}
+
+.div h1 {
+  color: white;
+  font-size: 5rem;
+}
+.tre {
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -25px;
+  border: solid black;
+}

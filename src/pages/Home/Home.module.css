@@ -1,0 +1,39 @@
+.container {
+  max-width: 1800px;
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.popular {
+  /* background-color: red; */
+  width: 1250px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.people {
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.but {
+  display: flex;
+  padding: 50px 30px 0px;
+}
+.ss {
+  box-shadow: 0 0 4px 2px #00000024;
+  border-radius: 10px;
+  padding: 10px;
+}

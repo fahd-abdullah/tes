@@ -1,0 +1,139 @@
+.container {
+  margin: 50px 68px;
+}
+.imgs {
+  /* width: 100%; */
+  overflow-x: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.imga {
+  display: flex;
+  gap: 10px;
+}
+.move_info {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  gap: 20px;
+}
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img svg {
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  box-shadow: 0px 0px 11px 10px black;
+  border-radius: 100px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.imgg {
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px 1px #0000008a;
+}
+.title {
+}
+.genres {
+  display: flex;
+  gap: 20px;
+}
+.genre {
+  border: 2px solid black;
+  border-radius: 100px;
+  padding: 5px;
+}
+.info {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.info h1 {
+  font-size: 1.4rem;
+}
+.recommendations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 50px;
+}
+.inf {
+  display: flex;
+  align-items: flex-end;
+}
+.info p {
+  height: 180px;
+  overflow-y: scroll;
+}
+.vote {
+  position: relative;
+}
+.vote svg {
+  color: #fbe600;
+  position: absolute;
+  font-size: 80px;
+  top: -60px;
+  left: 10px;
+  z-index: -1;
+}
+
+.vote h1 {
+  position: absolute;
+  left: 30px;
+  top: -45px;
+}
+.vote h5 {
+  position: absolute;
+  left: 41px;
+  top: -15px;
+}
+.in {
+  display: flex;
+  align-items: center;
+}
+.in li {
+  font-size: 20px;
+  margin-left: 20px;
+  display: revert;
+  text-align: center;
+}
+
+.ids {
+  font-size: 1.5em;
+  display: flex;
+  gap: 10px;
+}
+
+.ids a {
+  color: #000;
+}
+/* .info p::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+.info p::-webkit-scrollbar-thumb {
+  background: #343434;
+  border-radius: 100px;
+}
+.info p::-webkit-scrollbar-track {
+  background: hsl(0deg 0% 20% / 30%);
+  border-radius: 100px;
+} */
+.container *::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+.container *::-webkit-scrollbar-thumb {
+  background: #343434;
+  border-radius: 100px;
+}
+.container *::-webkit-scrollbar-track {
+  background: hsl(0deg 0% 20% / 30%);
+  border-radius: 100px;
+}
